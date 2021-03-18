@@ -13,22 +13,40 @@
 </head>
 
 <body>
-   <div class="app">
-    <header class="header">
-        <a href="/" class="logo">
-            <img src="img/logo.svg" alt="logo" class="logo-image">
-        </a>
-        <a href="#" class="user">
-            <span class="user-name">Артем</span>
-            <img src="img/user-photo.jpg" alt="user-photo" class="user-photo">
-        </a>
-    </header>
-    <section class="film">
-        <img src="img/film-logo.png" alt="Mortal Combat" class="film-logo">
-    </section>
+    <div class="app" id="app">
+        <header class="header">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="logo" class="logo-image">
+            </a>
+            <a href="#" class="user">
+                <span class="user-name">Артем</span>
+                <img src="img/user-photo.jpg" alt="user-photo" class="user-photo">
+            </a>
+        </header>
+        <section class="film">
+            <img src="img/film-logo.png" alt="Mortal Combat" class="film-logo">
+            <div class="tags">
+                <span class="data">2021</span>
+                <span class="genre">Боевик, фэнтези, фантастика</span>
+                <span class="country">США</span>
+                <span class="age">18+</span>
+            </div>
+            <p class="description">Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва,
+                где останется только сильнейший</p>
+            <div class="button-group">
+                <button class="button button-primary">Предзаказ фильма</button>
+                <button class="button button-default">
+                    <img src="img/play.svg" alt="icon: play" class="button-icon">
+                    <span class="button-text">Смотреть трейлер</span>
+                </button>
+            </div>
+        </section>
 
-   </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
 </body>
 
 </html>
